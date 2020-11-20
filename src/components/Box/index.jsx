@@ -7,13 +7,10 @@ import { Examples } from "../../constants/Examples";
 import "./styles.css";
 
 const Box = (props) => {
-  const { type, feature } = props;
+  const {type,feature} = props
   return (
     <>
-      <Container
-        className="teacher"
-        style={{ backgroundColor: props.background_color }}
-      >
+      <Container className="box" style={{ backgroundColor: props.background_color }}>
         <h2>Exemplos</h2>
         {Examples[type][feature].map(example => {
           return (
