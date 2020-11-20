@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Aller_Rg';
+    src: url('../fonts/Aller/Aller_Rg.ttf');
+}
+
+@font-face {
+    font-family: 'Aller_Bd';
+    src: url('../fonts/Aller/Aller_Bd.ttf');
+}
+
+@font-face {
+    font-family: 'Avenir_Rg';
+    src: url('../fonts/Avenir/AvenirNextLTPro-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Avenir_Bd';
+    src: url('../fonts/Avenir/avenir-next-lt-pro-bold-condensed.otf');
+}
+
+@font-face {
+    font-family: 'Avenir_Book';
+    src: url('../fonts/Avenir/AvenirLTStd-Book.otf');
+}
+
+@font-face {
+    font-family: 'Avenir_Md';
+    src: url('../fonts/Avenir/avenir-next-lt-pro-medium-condensed.otf');
+}
+
+@font-face {
+    font-family: 'Avenir_Rm';
+    src: url('../fonts/Avenir/Avenir-Roman.otf');
+}
+
+body {
+    background-color: #DEE9F2;
+}
+
+div.App {
+    font-family: 'Aller_Rg';
+}
+
+div.App nav {
+    background: rgb(32, 32, 36);
+}

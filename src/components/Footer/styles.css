@@ -1,0 +1,15 @@
+/* The component style is inserted here. */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: rgb(18, 18, 20);
+}
+
+footer p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0;
+}

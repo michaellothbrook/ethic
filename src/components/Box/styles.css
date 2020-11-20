@@ -1,0 +1,58 @@
+div.teacher {
+    width: 100%;
+    height: inherit;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+}
+
+div.subject div.teacher h2 {
+    color: #DEE9F2;
+    font-size: 1.6rem;
+    font-family: 'Aller_Bd';
+    padding: 10px;
+    width: 1px;
+}
+div.enem_teachers div.teachers_slide div.teacher h2 {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    div.teacher {
+        display: flex;
+        border-radius: 0 15px 15px 0;
+        margin-left: -10px;
+    }
+    div.teacher article.profile {
+        align-self: center;
+        margin-right: 15px;
+    }
+    div.enem_teachers div.teachers_slide div.teacher h2 {
+        display: none;
+    }
+    div.teachers_slide .slide>div.carousel {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 2fr);
+        border-radius: 0 0 15px 15px;
+    }
+    div.teachers_slide .slide>div.carousel div.carousel-item {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    div.teacher {
+        display: flex;
+        border-radius: 0 0 15px 15px;
+        margin-left: 0;
+    }
+    div.enem_teachers div.teachers_slide div.teacher h2 {
+        display: none;
+    }
+    div.teacher article.profile img {
+        width: 100%;
+    }
+    div.subject div.teacher h2 {
+        width: auto;
+    }
+}

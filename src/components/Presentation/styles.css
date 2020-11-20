@@ -1,0 +1,68 @@
+/* The component style is inserted here. */
+
+section.presentation {
+    padding: 5px;
+    background-color: rgb(18, 18, 20);
+}
+
+section.presentation div.container div.row {
+    justify-content: space-evenly;
+}
+
+section.presentation div.title {
+    padding: 20px 0;
+}
+
+section.presentation div.paragraph {
+    margin: 50px auto;
+}
+
+section.presentation div.title h1 {
+    text-align: right;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+section.presentation div.title div:not(:nth-child(2)) img {
+    width: auto;
+    height: 75px;
+}
+
+section.presentation div.title div:nth-child(2) img {
+    width: 30px;
+}
+
+section.presentation div.paragraph h1 {
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Aller_Bd';
+    color: rgb(168, 168, 179);
+}
+
+section.presentation div.paragraph p {
+    text-align: justify;
+    color: rgb(168, 168, 179);
+}
+
+section.presentation div.signup {
+    margin: 50px 0;
+}
+
+section.presentation div.signup h5 {
+    color: #02BDC7;
+    font-family: 'Aller_Bd';
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    section.presentation div.title div:not(:nth-child(2)) img {
+        width: 100%;
+        height: auto;
+    }
+    section.presentation div.paragraph h1 {
+        font-size: 2rem;
+    }
+    section.presentation div.paragraph p {
+        font-size: 1.2rem;
+    }
+}

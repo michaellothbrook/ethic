@@ -1,0 +1,16 @@
+section.video {
+    background-color: #02BDC7;
+    padding: 25px;
+}
+
+section.video div.container div.row h1 {
+    font-size: 1.2rem;
+    color: #DEE9F2;
+    font-family: 'Avenir_Bd';
+}
+
+@media (min-width: 768px) {
+    section.video div.container div.row h1 {
+        font-size: 2rem;
+    }
+}
